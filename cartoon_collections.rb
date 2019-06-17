@@ -21,7 +21,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.map! {|call| call.capitalize + "!"}
-  calls.all? {|word| print word.length > 4}
+  calls.all? {|word| print word.length < 4}
   calls.any? {|word| print word.length > 4}
 end
 
