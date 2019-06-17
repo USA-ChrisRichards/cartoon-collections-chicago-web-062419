@@ -20,11 +20,10 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  calls.map! {|call| call.capitalize + "!"}
   calls.any? {|word|  word.length > 4}
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array_of_strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
