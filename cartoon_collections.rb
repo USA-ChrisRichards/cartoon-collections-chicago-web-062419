@@ -23,6 +23,7 @@ def long_planeteer_calls(calls)
   calls.map! {|call| call.capitalize + "!"}
   calls.none? {|word| word.length <= 5}
   calls.any? {|word| word.length > 4}
+  print calls.length
 end
 
 def find_the_cheese# code an argument here
